@@ -5,4 +5,5 @@ SELECT
     COUNT(*) AS null_customer_name_Count
 FROM customers
 WHERE customer_name IS NULL
-AND  is_active = "Y";
+AND  is_active = "Y"
+AND 1 =1;
