@@ -4,4 +4,5 @@
 SELECT
     COUNT(*) AS null_customer_name_Count
 FROM customers
-WHERE customer_name IS NULL;
+WHERE customer_name IS NULL
+AND  is_active = "Y";
