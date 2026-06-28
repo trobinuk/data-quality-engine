@@ -1,5 +1,5 @@
 -- Rule: Check for NULL customer_name values
--- Purpose: Ensure customer_name is always populated for analytics
+-- Purpose: Ensure customer_name is always populated for analyticsing one more column
 
 SELECT
     COUNT(*) AS null_customer_name_Count,
