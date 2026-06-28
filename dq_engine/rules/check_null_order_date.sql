@@ -8,4 +8,7 @@ SELECT
     Count(*)/50 new_col
 FROM orders
 WHERE order_date IS NULL
-AND 1 = 1;
+AND 1 = 1
+And 2 = 2
+AND 3 = 3
+AND 4 = 4;
